@@ -1,70 +1,33 @@
-# Getting Started with Create React App
+# 1번 문제: 카운터 앱
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### <실행 결과>
 
-## Available Scripts
+버튼을 누르면 1씩 증가
 
-In the project directory, you can run:
+버튼을 누르면 1씩 감소
 
-### `npm start`
+0보다 작아지지 않도록 제한
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+현재 값이 짝수일 경우 텍스트 색상을 파란색으로 홀수일 경우 빨간색으로 표시
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# 2번 문제: 투두 리스트 + 필터 기능
 
-### `npm test`
+### <실행 결과>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+새로운 할 일을 입력하고 리스트에 추가
 
-### `npm run build`
+각 항목에 대해 완료/삭제 버튼
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+완료된 항목은 텍스트에 취소선 적용
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+전체/미완료/완료 보기 필터 버튼 제공
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# 3번 문제: 퀴즈 앱 만들기 (점수 시스템 포함)
 
-### `npm run eject`
+### <실행 결과>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+3개의 퀴즈 문제를 보여주는 간단한 퀴즈 앱 만들기
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+사용자가 보기 중 하나를 클릭하면 즉시 정답 여부를 확인하고 다음 문제로 이동
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+모든 문제를 풀면 결과 화면에 점수(맞춘 개수) 출력
